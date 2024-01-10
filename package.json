@@ -1,0 +1,25 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "A versatile command-line tool to scaffold and set up various web application frameworks effortlessly. Seamlessly create projects using React, Vue, Angular, Next.js, Gatsby.js, Nuxt, or Express, with the flexibility to choose different package managers like npm, pnpm, or yarn.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "web",
+    "framework",
+    "create-app"
+  ],
+  "author": "Md. Ashiquzzaman Khan",
+  "license": "MIT",
+  "dependencies": {
+    "@types/prompts": "^2.4.9",
+    "cross-spawn": "^7.0.3",
+    "inquirer": "^9.2.12",
+    "prompts": "^2.4.2"
+  },
+  "repository": ".",
+  "private": "false"
+}
